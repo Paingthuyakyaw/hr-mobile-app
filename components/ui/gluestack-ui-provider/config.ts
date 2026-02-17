@@ -32,7 +32,7 @@ export const config = {
     /* ========== Background ========== */
     "--color-background": "17 24 39", // deep navy bg
     "--color-card": "28 41 61", // dark card
-    "--color-card-muted": "35 53 80",
+    "--color-card-muted": "255, 255, 255, 0.15",
 
     /* ========== Primary (Blue Header Gradient) ========== */
     "--color-primary-500": "59 130 246",

@@ -26,8 +26,11 @@ export default function Layout() {
             height: 70,
             paddingBottom: 10,
             paddingTop: 10,
-            backgroundColor: theme == "light" ? "#ffffff" : "28 41 61",
+            backgroundColor: theme == "light" ? "#ffffff" : "rgb(28 41 61)",
             borderTopWidth: 0,
+            shadowOpacity: 0,
+            boxShadow: "none",
+            elevation: 0,
           },
           tabBarActiveTintColor:
             theme == "light" ? "rgb(37 99 235)" : "rgb(59 130 246)", // အပြာရောင် (Active ဖြစ်ချိန်)

@@ -2,6 +2,7 @@ import dayjs from "dayjs";
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import AttandanceCard from "./attandance-card";
+import LeaveCard from "./leave-card";
 import ManageCard from "./manage-card";
 
 const HomeComponent = () => {
@@ -44,6 +45,8 @@ const HomeComponent = () => {
       </View>
       <AttandanceCard />
       <ManageCard />
+      <LeaveCard />
+      <View className=" h-10 "></View>
     </View>
   );
 };
