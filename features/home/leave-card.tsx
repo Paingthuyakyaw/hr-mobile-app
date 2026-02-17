@@ -1,11 +1,17 @@
 import { Grid, GridItem } from "@/components/ui/grid";
+import { Ionicons } from "@expo/vector-icons";
 import React from "react";
 import { Text, View } from "react-native";
 
 const LeaveCard = () => {
   return (
     <View className=" bg-card p-5 rounded-[20]">
-      <Text className=" text-text-primary pb-4 font-[600]">Leave Balance</Text>
+      <View className=" flex-row  pb-4 flex items-center justify-between">
+        <Text className=" text-text-primary font-[600]">Leave Balance</Text>
+        <Text className=" text-primary-700 text-[11px] ">
+          View all <Ionicons name="arrow-forward" />
+        </Text>
+      </View>
       <Grid className=" gap-5" _extra={{ className: "grid-cols-12" }}>
         <GridItem _extra={{ className: "col-span-4" }}>
           <View className=" items-center gap-1 rounded-[20] p-5 bg-card-muted ">
